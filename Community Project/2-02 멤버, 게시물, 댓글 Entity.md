@@ -22,6 +22,7 @@ public class Member extends CommonEntity {
 </pre>
 
 # Posting
+
 <pre>
 <code>
 @Entity
@@ -44,6 +45,8 @@ public class Posting extends CommonEntity {
   @NotNull
   private Member member;
 }
+</code>
+</pre>
 
 # Comments
 
