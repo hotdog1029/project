@@ -22,7 +22,8 @@ public class Member extends CommonEntity {
 </pre>
 
 # Posting
-
+<pre>
+<code>
 @Entity
 @Getter
 @Setter
