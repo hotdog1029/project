@@ -17,6 +17,12 @@ public class Member extends CommonEntity {
 
   @NotNull
   private String email;
+  
+  @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
+  private List<Posting> postingList;
+
+  @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
+  private List<Comments> commentsList;
 }
 </code>
 </pre>
